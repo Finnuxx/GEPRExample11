@@ -25,21 +25,20 @@ int main() {
     auto * y = new Circle(r);
     auto * calculator = new Calculator(x, y);
 
-    cout << "Flächenberechnungen: " << endl;
-    cout << "Fläche des Rechtecks: " << calculator->getShapeA()->getArea() << endl;
-    cout << "Fläche des Kreises: " << calculator->getShapeB()->getArea() << endl;
-    cout << "Flächenunterschied: " << calculator->getAreaDiff() << endl;
-    cout << "Flächensumme: " << calculator->getAreaSum() << endl;
-    cout << "größere Fläche: " << calculator->getBiggerShape()->getArea() << endl;
-    cout << "kleinere Fläche: " << calculator->getSmallerShape()->getArea() << endl << endl;
-    cout << "Umfangsberechungen: " << endl;
-    cout << "Umfang des Rechtecks: " << calculator->getShapeA()->getCircumference() << endl;
-    cout << "Umfang des Kreises: " << calculator->getShapeB()->getCircumference() << endl;
-    cout << "Unterschied des Umfangs:" << calculator->getCircumferenceDiff() << endl;
-    cout << "Umfangsumme: " << calculator->getCircumferenceSum() << endl;
-    cout << "größerer Umfang: " << calculator->getBiggerCircumference()->getCircumference() << endl;
-    cout << "kleinerer Umfang: " << calculator->getSmallerCircumference()->getCircumference() << endl;
-    cout << "test" << endl;
+    cout << "Area calculation: " << endl;
+    cout << "Area rectangle: " << calculator->getShapeA()->getArea() << endl;
+    cout << "Area circle: " << calculator->getShapeB()->getArea() << endl;
+    cout << "Area difference: " << calculator->getAreaDiff() << endl;
+    cout << "Area sum: " << calculator->getAreaSum() << endl;
+    cout << "Bigger area: " << calculator->getBiggerShape()->getArea() << endl;
+    cout << "Smaler Area: " << calculator->getSmallerShape()->getArea() << endl << endl;
+    cout << "Circumference calculation: " << endl;
+    cout << "Circumference rectangle: " << calculator->getShapeA()->getCircumference() << endl;
+    cout << "Circumference circle: " << calculator->getShapeB()->getCircumference() << endl;
+    cout << "Circumference difference:" << calculator->getCircumferenceDiff() << endl;
+    cout << "Circumference sum: " << calculator->getCircumferenceSum() << endl;
+    cout << "Bigger circumference: " << calculator->getBiggerCircumference()->getCircumference() << endl;
+    cout << "Smaller circumference: " << calculator->getSmallerCircumference()->getCircumference() << endl;
 
     return 0;
 }
