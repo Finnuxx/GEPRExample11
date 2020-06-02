@@ -31,7 +31,7 @@ int main() {
     cout << "Area difference: " << calculator->getAreaDiff() << endl;
     cout << "Area sum: " << calculator->getAreaSum() << endl;
     cout << "Bigger area: " << calculator->getBiggerShape()->getArea() << endl;
-    cout << "Smaler Area: " << calculator->getSmallerShape()->getArea() << endl << endl;
+    cout << "Smaller Area: " << calculator->getSmallerShape()->getArea() << endl << endl;
     cout << "Circumference calculation: " << endl;
     cout << "Circumference rectangle: " << calculator->getShapeA()->getCircumference() << endl;
     cout << "Circumference circle: " << calculator->getShapeB()->getCircumference() << endl;
