@@ -6,7 +6,29 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/A1/Documents/GitHub/GEPRExample11/headers/Calculator.h
+
+C:/Users/A1/Documents/GitHub/GEPRExample11/headers/Circle.h
+math.h
+-
+GeometricShape.h
+C:/Users/A1/Documents/GitHub/GEPRExample11/headers/GeometricShape.h
+
+C:/Users/A1/Documents/GitHub/GEPRExample11/headers/GeometricShape.h
+
+C:/Users/A1/Documents/GitHub/GEPRExample11/headers/Square.h
+GeometricShape.h
+C:/Users/A1/Documents/GitHub/GEPRExample11/headers/GeometricShape.h
+
 C:/Users/A1/Documents/GitHub/GEPRExample11/main.cpp
 iostream
 -
+headers/GeometricShape.h
+C:/Users/A1/Documents/GitHub/GEPRExample11/headers/GeometricShape.h
+headers/Square.h
+C:/Users/A1/Documents/GitHub/GEPRExample11/headers/Square.h
+headers/Calculator.h
+C:/Users/A1/Documents/GitHub/GEPRExample11/headers/Calculator.h
+headers/Circle.h
+C:/Users/A1/Documents/GitHub/GEPRExample11/headers/Circle.h
 

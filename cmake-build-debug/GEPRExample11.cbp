@@ -82,6 +82,18 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/A1/Documents/GitHub/GEPRExample11/headers/Calculator.h">
+			<Option target="GEPRExample11"/>
+		</Unit>
+		<Unit filename="C:/Users/A1/Documents/GitHub/GEPRExample11/headers/Circle.h">
+			<Option target="GEPRExample11"/>
+		</Unit>
+		<Unit filename="C:/Users/A1/Documents/GitHub/GEPRExample11/headers/GeometricShape.h">
+			<Option target="GEPRExample11"/>
+		</Unit>
+		<Unit filename="C:/Users/A1/Documents/GitHub/GEPRExample11/headers/Square.h">
+			<Option target="GEPRExample11"/>
+		</Unit>
 		<Unit filename="C:/Users/A1/Documents/GitHub/GEPRExample11/main.cpp">
 			<Option target="GEPRExample11"/>
 		</Unit>
